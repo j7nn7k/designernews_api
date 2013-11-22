@@ -12,22 +12,33 @@ The class that parses the Designer News page, and builds up all stories.
 
 #### Methods
 
-`get_stories(story_type='')` - Returns a list of stories from the passed page of Designer News. 'story_type' can be: '' = top stories (homepage), 'new' = most recent stories
+`get_stories()` - Returns a list of the **top stories** from the home page of Designer News.
 
-#### Story details (keys of `dict`)
+`get_stories(story_type='new')`  - Returns a list of the **most recent stories** from the /new page of Designer News.
+
+#### Available values in the `story` dict which is returned by `get_stories()`
 
 * **rank** - the rank of story on the page
 * **story_id** - the story's id
 * **title** - the title of the story
-* **is_self** - true for self/job stories
+* **is_self** - no external link but article on designer news
 * **link** - the url it points to (None for self posts)
 * **domain** - the domain of the link (None for self posts)
 * **points** - the points/karma on the story
-* **submitter** - the user who submitted the story
-* **submitter_link** - the above user profile link
-* **published_time** - the published time ago
 * **num_comments** - the number of comments it has
-* **comments_link** - the link to the comments page
+
+ ```python
+    story = {
+        "rank": rank,
+        "story_id": story_id,
+        "title": title,
+        "link": link,
+        "domain": domain,
+        "points": points,
+        "num_comments": num_comments,
+        "is_self": is_self
+    }
+ ```
 
 Usage
 =====
