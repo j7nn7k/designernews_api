@@ -25,20 +25,21 @@ The class that parses the Designer News page, and builds up all stories.
 * **link** - the url it points to (None for self posts)
 * **domain** - the domain of the link (None for self posts)
 * **points** - the points/karma on the story
-* **num_comments** - the number of comments it has
+* **num_comments** - the number of comments of the story
 
- ```python
-    story = {
-        "rank": rank,
-        "story_id": story_id,
-        "title": title,
-        "link": link,
-        "domain": domain,
-        "points": points,
-        "num_comments": num_comments,
-        "is_self": is_self
-    }
- ```
+
+```python
+story = {
+    "rank": rank,
+    "story_id": story_id,
+    "title": title,
+    "link": link,
+    "domain": domain,
+    "points": points,
+    "num_comments": num_comments,
+    "is_self": is_self
+}
+```
 
 Usage
 =====
