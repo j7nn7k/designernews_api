@@ -20,10 +20,7 @@ Or download from [PyPi](https://pypi.python.org/pypi/designernews_api)
 See [`example.py`](https://github.com/j7nn7k/designernews_api/blob/master/example.py)
 
 
-# Class
-
-
-## `DN`
+# Class `DN`
 
 The class `DN` parses the Designer News page, and builds up all stories.
 
