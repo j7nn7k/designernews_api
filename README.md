@@ -1,14 +1,31 @@
-Designernews API
-================
+# Designernews API
 
 Python API for [Designer News](https://news.layervault.com/). Inspired by the [`HackerNewsAPI`](https://github.com/karan/HackerNewsAPI/)
 
-Class
-=====
+
+# Install
+
+Via pip (recommended)
+
+```
+pip install designernews_api
+```
+
+Or download from [PyPi](https://pypi.python.org/pypi/designernews_api)
+
+
+# Usage
+
+
+See [`example.py`](https://github.com/j7nn7k/designernews_api/blob/master/example.py)
+
+
+# Class
+
 
 ## `DN`
 
-The class that parses the Designer News page, and builds up all stories.
+The class `DN` parses the Designer News page, and builds up all stories.
 
 #### Methods
 
@@ -41,10 +58,6 @@ story = {
 }
 ```
 
-Usage
-=====
-
-See [`example.py`](https://github.com/j7nn7k/designernews_api/blob/master/example.py)
 
 Contribute
 ==========
