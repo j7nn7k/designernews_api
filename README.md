@@ -1,4 +1,5 @@
-# Designernews API
+# Designernews API [![Build Status](https://api.travis-ci.org/j7nn7k/designernews_api.png)](https://travis-ci.org/j7nn7k/designernews_api)
+
 
 Python API for [Designer News](https://news.layervault.com/). Inspired by the [`HackerNewsAPI`](https://github.com/karan/HackerNewsAPI/)
 
