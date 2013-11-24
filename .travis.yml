@@ -2,8 +2,9 @@ language: python
 
 python:
   - "2.7"
-  - "3.2"
-  - "3.3"
+# No Py3 support for now until a function to .translate() unicode strings is implemented
+#  - "3.2"
+#  - "3.3"
   - "pypy"
 
 install:
