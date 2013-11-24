@@ -105,5 +105,4 @@ class DN(object):
         '' = top stories (homepage)
         'new' = most recent stories
         """
-        print 'abc'
         return self._build_story(self._get_soup(page=story_type))
