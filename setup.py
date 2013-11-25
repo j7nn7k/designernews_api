@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='designernews_api',
     packages=['dn',],
-    version='0.1',
+    version='0.2',
     description='Python API for Designer News.',
     install_requires=['BeautifulSoup4>=4.3.1', 'requests'],
     author='Jannik Weyrich',
