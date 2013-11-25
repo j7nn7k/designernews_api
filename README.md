@@ -57,7 +57,11 @@ story = {
 ```
 
 
-Contribute
-==========
-
+# Contribute
 New features, or improve existing ones? Send a pull request.
+
+
+# Tests
+To run the tests locally just install the requirements by running `pip install -r requirements.txt`.
+
+Then run the command `nosetests` in the command line from within the project's root directory.
